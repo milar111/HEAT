@@ -1,0 +1,17 @@
+Licensing overview
+
+This repository contains multiple components under different licenses.
+
+Firmware
+- Located in /firmware
+- Licensed under GNU General Public License v3.0 (GPLv3)
+
+Hardware design files (schematics, PCB, CAD)
+- Located in /hardware
+- Licensed under Creative Commons Attribution–NonCommercial–ShareAlike 4.0
+
+Documentation
+- README.md and build instructions
+- Licensed under Creative Commons Attribution–NonCommercial–ShareAlike 4.0
+
+Commercial use is not permitted without explicit permission from the author.

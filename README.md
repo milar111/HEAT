@@ -28,7 +28,7 @@ The system combines:
 * A **forced‑cooling fan** with safety logic
 * Persistent settings storage in **internal flash**
 
-![0-02-05-9d7d671f34b2c2900c79553637a613f352b9c919e76f2fe127582a8b5f239fc5_35ea2e4e91de77aa](https://github.com/user-attachments/assets/2d6a0cc6-49ce-4e62-850a-d8f5e985de73)
+![0-02-05-5d3824effdbe4cbf30e6dd0a9a942f0fa9f9ccf81f6ea32574e28215983978b9_7c2cbd72a6d31529](https://github.com/user-attachments/assets/9bd01952-3055-4f48-a69a-dd3da2f71a55)
 
 ---
 
@@ -66,13 +66,15 @@ The system combines:
 
 ## 3. Hardware Design
 
+
+
 <table>
   <tr>
     <td>
-      <img width="1094" height="655" alt="image" src="https://github.com/user-attachments/assets/1783a39d-5a74-4be1-88fc-1170235e471b" />
+      <img width="1094" height="655" alt="Screenshot 2025-12-13 144943" src="https://github.com/user-attachments/assets/a5c5deff-9450-414a-b4ab-51347898a725" />
     </td>
     <td>
-      <img width="1192" height="751" alt="image" src="https://github.com/user-attachments/assets/6d63ec2d-7cf8-4167-b102-cd0e786b4922" />
+      <img width="1192" height="751" alt="Screenshot 2025-12-13 145002" src="https://github.com/user-attachments/assets/8d7afc13-9d9a-4ac3-bb80-a3ee3d34a65c" />
     </td>
   </tr>
 </table>
@@ -89,21 +91,17 @@ Key reasons for choosing this MCU:
 * Adequate ADC performance
 * Flash storage capability
 * Simple debugging (SWD)
+
+  
+
+
 <table align="center">
   <tr>
     <td>
-      <img
-        src="https://github.com/user-attachments/assets/167f741a-20a2-4230-a9ee-6fbbeb6f2e97"
-        alt="image"
-        height="400"
-      />
+      <img width="792" height="761" alt="Screenshot 2025-12-13 141536" src="https://github.com/user-attachments/assets/7f1db103-cbd9-4cd0-b71a-c8e0edf1df54" />
     </td>
     <td>
-      <img
-        src="https://github.com/user-attachments/assets/187579d8-b883-4efd-8a65-ae4ebf0f8d6e"
-        alt="image"
-        height="400"
-      />
+      <img width="678" height="865" alt="Screenshot 2025-12-13 150124" src="https://github.com/user-attachments/assets/d529bf92-650c-499c-acab-29dabd59c255"/>
     </td>
   </tr>
 </table>
@@ -136,10 +134,10 @@ Key reasons for choosing this MCU:
 <table>
   <tr>
     <td>
-      <img width="1497" height="475" alt="image" src="https://github.com/user-attachments/assets/2bfb008e-2a2f-4f50-a50b-0b6be49b4ef1" />
+      <img width="2241" height="709" alt="image" src="https://github.com/user-attachments/assets/3ddaa7b5-0509-4810-a96d-e0f0e8e89467" />
     </td>
     <td>
-      <img width="1517" height="683" alt="image" src="https://github.com/user-attachments/assets/03912e87-2cf7-4565-8e23-c54e0b6b082a" />
+      <img width="1519" height="680" alt="image" src="https://github.com/user-attachments/assets/acd6354e-d177-4913-8509-cacb7060ac66" />
     </td>
   </tr>
 </table>
@@ -186,7 +184,7 @@ This approach is:
 * Thermally smooth
 * Simple and predictable
 <p align='center'>
-  <img width="1172" height="602" alt="image" src="https://github.com/user-attachments/assets/0317e366-7587-44a6-8ebd-7851278e9cf9" />
+  <img width="1750" height="893" alt="image" src="https://github.com/user-attachments/assets/cbd84d84-6baa-4be1-81bc-1f99aab8097d" />
 </p>
 
 #### Interactive Simulation
@@ -259,7 +257,7 @@ The firmware:
 * Applies a low‑pass filter
 * Uses the Beta equation to convert resistance → temperature
 <p align='center'>
-  <img width="748" height="693" alt="image" src="https://github.com/user-attachments/assets/03a40e41-a315-4dcd-a7ae-984093a0e2f7" />
+  <img width="927" height="857" alt="image" src="https://github.com/user-attachments/assets/4b798e95-4f69-4ada-acea-c9a574624499" />
 </p>
 
 ---
@@ -284,7 +282,7 @@ The firmware enforces:
 * A short 100% startup boost to overcome static friction
 * Full-speed override during cooling or fault conditions
 <p align='center'>
-  <img width="1226" height="951" alt="image" src="https://github.com/user-attachments/assets/aff97264-922f-475e-83dd-44a3106683bf" />
+  <img width="1341" height="1039" alt="Screenshot 2025-12-29 182645" src="https://github.com/user-attachments/assets/e8ec08be-e6f0-481c-be43-c12c587439ca" />
 </p>
 
 ---
@@ -672,13 +670,15 @@ The following cable lengths reflect the **actual physical implementation** of th
 ---
 ## 7. Enclosure, Printing, and Mechanical Assembly
 
+
+
 <table>
   <tr>
     <td>
-      <img width="1369" height="1022" alt="Screenshot 2025-12-13 140320" src="https://github.com/user-attachments/assets/02ca9cd6-0113-4bda-b2ef-f1da18b333e2" />
+      <img width="1369" height="1022" alt="Screenshot 2025-12-13 140320" src="https://github.com/user-attachments/assets/6915f4b7-c824-4573-b66a-3ee9c00d1b1b" />
     </td>
     <td>
-      <img width="1277" height="969" alt="Screenshot 2025-12-13 140330" src="https://github.com/user-attachments/assets/2eea18f3-aad5-4feb-9cf6-0206f8e9c90a" />
+      <img width="1277" height="969" alt="Screenshot 2025-12-13 140330" src="https://github.com/user-attachments/assets/7ae8aad4-a68a-408c-aaf2-24c7971ad4a3" />
     </td>
   </tr>
 </table>
@@ -705,13 +705,13 @@ PLA was intentionally avoided because it softens at relatively low temperatures 
 <table>
   <tr>
     <td>
-      <img width="1328" height="1006" alt="Screenshot 2025-12-13 140355" src="https://github.com/user-attachments/assets/7e37ceb1-9c15-4a84-898d-b24dba49c683" />
+      <img width="1132" height="940" alt="Screenshot 2025-12-13 140419" src="https://github.com/user-attachments/assets/ffdddf84-e563-4c30-be70-6b06c980a733" />
     </td>
     <td>
-      <img width="1132" height="940" alt="Screenshot 2025-12-13 140419" src="https://github.com/user-attachments/assets/1e3c548c-bd2c-496d-8022-655adb4edec4" />
+      <img width="1328" height="1006" alt="Screenshot 2025-12-13 140355" src="https://github.com/user-attachments/assets/7caaba84-6668-413f-9359-cb0743988dfe" />
     </td>
     <td>
-      <img width="1189" height="968" alt="image" src="https://github.com/user-attachments/assets/8192fd8f-20d2-4247-9922-57476c835cf7" />
+      <img width="1189" height="968" alt="Screenshot 2025-12-13 143520" src="https://github.com/user-attachments/assets/74c98fb3-16dc-48e8-8b75-a15b5ff5b849" />
     </td>
   </tr>
 </table>

@@ -754,7 +754,25 @@ For best results, inserting the nuts is strongly recommended.
 | Triac → heatsink connection              | M3 × 10 mm bolt                  |
 | Protective earth (ground) connection     | Wire to heater bolt using 2× M4 lock nuts + 2× M4 washers|
 
-The protective earth wire from the AC inlet is mechanically bonded to the **heater mounting bolt**, ensuring a low-impedance safety ground connection to exposed metal parts.
+The grounding wire needs to be stripped and bent into a hook shape so that it can later be inserted under one of the heater’s legs (the M4 bolt).
+![0-02-05-f75d92e99bee57b75f5bf9b76a902cb7a1495ac9e74b458c112fd55b85eb4253_bbff8c266239714f](https://github.com/user-attachments/assets/5e1c44b8-49c9-4060-b211-92ffdae072ea)
+
+
+---
+### Quick assembly
+1. Solder Peripherals: Before mounting the PCB, solder the wires for the thermistor, fan, OLED display, and buttons to their respective pads on the board.
+2. Place PCB in Enclosure: Insert the PCB into the bottom of the case.
+Pro Tip: If you soldered the button wires to the bottom side of the PCB (highly recommended), the tension created by the wires will allow the PCB to "snap" perfectly into position and hold itself securely without needing hot glue.
+3. Connect AC Inlet: Solder the wires from the AC Power Socket to the AC IN pads on the PCB.
+⚠️ IMPORTANT: Perform this soldering with the PCB in a vertical position (lifted out of the case). If you try to solder these pads from above while the PCB is sitting flat inside, the heat will melt and destroy the 3D-printed enclosure walls.
+4. Secure UI Components:
+OLED: Use a small amount of glue to secure the display to the front panel.
+Buttons: Push the tactile buttons into their housing. If you used the specific 5.5mm x 6mm buttons listed, they should fit snugly without needing glue.
+5. Protective Grounding: Connect the Earth/Ground wire from the AC inlet directly to one of the heater's m4 bolts. Secure it tightly with washers and lock nuts to ensure the heater plate is grounded.
+6. Secure the Fan Mount the fan into its dedicated slot in the enclosure and secure it with M3 screws.
+7. Mount the Heater Insert the four M4 × 60mm bolts into the heater block and lower it onto the enclosure.
+If you used the embedded nuts method during printing, simply screw the bolts into the case.
+8. Install Thermistor Tuck the NTC thermistor head into the small hole on the heater block.
 
 ---
 
@@ -769,6 +787,7 @@ The table below contains links to the main components used in this project.
 | OLED Display | SSD1306, 128×64, I²C | [LINK](https://www.aliexpress.com/item/1005006365875586.html?spm=a2g0o.order_list.order_list_main.186.5d041802ybo8pW) |
 | Fan | 5 V, 2-wire DC fan | [LINK](https://www.aliexpress.com/item/1005006306536871.html?spm=a2g0o.order_list.order_list_main.5.5d041802ybo8pW) |
 | Buttons | 5.5mm x 6mm |  |
+| 3.15 A, standard 6.3 × 32 mm (3AG) cartridge| FUSE |  |
 
 
 # Interactive BOM (iBOM)
